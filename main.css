@@ -38,7 +38,7 @@ nav li a{
 }
 
 .home{
-    background-image: url("assets/UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-image: url("./assets/UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -83,4 +83,41 @@ nav li a{
     color: white;
     font-weight: bold;
     font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #bf7631;
+    left: 0;
+    bottom: 0;
+}
+
+.footer_images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 2%;
+}
+
+.footer_images img{
+    height: 50px
+}
+
+.footer_words{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: baseline;
+    padding: 0px 2%;    
+    font-size: smaller;
 }
